@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background-image {
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ), url("../image/4.jpg");
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    border-bottom: 2px solid white;
+}
+.header {
+    display: contents;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+.header figure img {
+    display: flex;
+    margin-top: 50px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin: 50px;
+}
+
+.presentation {
+    background-color: black;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    grid-template-rows: 25% 75%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.item-10 {
+    display: flex;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    border-bottom: 1px solid white;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: #1A1A1A;
+    padding-left: 40px;
+}
+
+.item-11 {
+    border-bottom: 1px solid white;
+    background-color: #1A1A1A;
+    margin-top: 30px;
+}
+
+.item-12 {
+    background-color: #1A1A1A;
+}
+
+.item-13 {
+    padding-top: 60px;
+    background-color: #1A1A1A;
+    padding-right: 40px;
+}
+
+.item-13 figure {
+    display: flex;
+    justify-content: flex-end;
+}
+.item-13 figure img{
+    width: 100%;
+}
+
+.item-13 p {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 50% 30%;
+    grid-template-rows: 28% 40% 46%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    height: 90vh;
+}
+
+.item-20 {
+    font-size: 30px;
+    border-bottom: 1px solid white;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 40px;
+    background-color: #1A1A1A;
+}
+
+
+.item-21 {
+    border-bottom: 1px solid white;
+    background-color: #1A1A1A;
+    margin-top: 30px;
+}
+
+.item-22 {
+    background-color: #1A1A1A;
+}
+
+.item-23 {
+    background-color: #1A1A1A;
+}
+.item-23 p {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    text-align: justify;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.item-24 {
+    background-color: #1A1A1A;
+}
+.item-24 figure {
+    display: flex;
+    justify-content: center;
+}
+
+.item-24 figure img {
+    width: 95%;
+    margin-top: -235px;
+}
+
+.item-25 {
+    background-color: #1A1A1A;
+    padding-right: 40px;
+}
+.item-25 figure {
+    display: flex;
+    justify-content: center;      
+}
+
+.item-25 figure img {
+    width: 100%;
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: 27% 26% 27%;
+    grid-template-rows: 20% 20%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.container-3 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.container-3 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 100px;
+    padding-bottom: 50px;
+}
+.item-30 {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #1A1A1A;
+    margin-top: 35px;
+    padding-left: 40px;
+    border-bottom: 1px solid white;
+}
+
+.item-31 {
+    background-color: #1A1A1A;
+    margin-top: 35px;
+    border-bottom: 1px solid white;
+}
+
+.item-32 {
+    background-color: #1A1A1A;
+    margin-top: 35px;
+    border-bottom: 1px solid white;
+}
+
+.item-33 {
+    border: 1px solid white;
+    background-color: #1A1A1A;
+    margin: 20px;
+    margin-left: 0;
+    margin-bottom: 2%;
+}
+
+
+.item-34 {
+    border: 1px solid white;
+    background-color: #1A1A1A;
+    margin: 20px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 2%;
+}
+
+.item-35 {
+    border: 1px solid white;
+    background-color: #1A1A1A;
+    margin: 20px;
+    margin-right: 0;
+    margin-bottom: 2%;
+}
+
+.video-performance {
+    padding-top: 20px;
+}
+
+.video { 
+    width: 1215px;
+    height: 400px;
+}
+
+footer {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
